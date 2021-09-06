@@ -1,0 +1,187 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+#title{
+  background-color: #ff4c68;
+  height: 90vh;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.navbar{
+  padding: 0 10;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.row{
+  margin: 70px 0 0 0;
+}
+
+.title-img{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 25%;
+}
+
+.icon{
+  font-size: 3rem;
+  color: #ef8172;
+  padding: 0 0 15px 0;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+.icon-div{
+  text-align: center;
+  margin: 20px 0 50px 0;
+}
+
+.icon-div p{
+  color: #8f8f8f;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color: white;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+#features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 50px;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.carousel-item{
+  padding: 3% 15%;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.logo{
+  width: 15%;
+  margin: 50px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  margin-bottom: 50px;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 50px 0 50px;
+  color: white;
+}
+
+.cta-h{
+  width: 50%;
+  margin: 0 auto 40px;
+  font-size: 50px;
+}
+
+.cta-b{
+  margin: 10px 10px 30px;
+}
+
+#footer{
+  text-align: center;
+  padding: 50px 0 30px;
+  background: white;
+}
+
+.footer-icon{
+  font-size: 20px;
+  margin: 10px 7px 15px;
+}
+
+@media (max-width: 1115px) {
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    height: auto;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  .cta-h{
+    font-size: 30px;
+    width: 70%;
+  }
+
+  .logo{
+    width: 20%;
+    margin: 50px 15px 0;
+  }
+
+}
